@@ -15,7 +15,7 @@ function carregar() {
             dia.innerHTML = `PEITO-FEIRA`
             break
         case 2:
-            dia.innerHTML = `COSTAS-FEIRA`
+            dia.innerHTML = `COSTA-FEIRA`
             break
         case 3:
             dia.innerHTML = `PERNA-FEIRA`
