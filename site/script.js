@@ -8,7 +8,7 @@ function carregar() {
     var sem = data.getDay()
     switch(sem) {
         case 0:
-           dia.innerHTML = `dia da baianagem`
+           dia.innerHTML = `sossego`
            h2.innerHTML = `descanso`
             break
         case 1:
