@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <h1>pedagio</h1>
+     page o seu pedagio<input type="number" name="dinh" id="mony"> agui
+     <input type="button" value="verifications" onclick="calculation()">
+     <div id="res">
+     </div>
+     <script>
+         function calculation() {
+            var d = window.document.querySelector('input#mony')
+            var r = window.document.querySelector('div#res')
+            var valor = Number(mony.value)
+            res.innerHTML = `<p>você pagou<strong> ${valor} reais</strong></p>`
+            if (valor > 19) {
+                res.innerHTML += `<p> obrigado por pagar </p>`
+            } else {
+                res.innerHTML += `<p>valor insuficiente</p>`
+            }
+
+            res.innerHTML += `<p> volte sempre </p>`
+         }
+
+     </script>
+</body>
+</html>

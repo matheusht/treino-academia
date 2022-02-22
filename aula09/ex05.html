@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOM </title>
+    <style>
+        body {
+            background-color: rgb(50, 89, 90);
+            color: rgb(197, 177, 177);
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>aprendendo DOM</h1>
+    <p>aqui </p>
+    <p id="ww"></p>
+    <p>aprendendo usar <strong>DOM</strong> ne java script</p>
+    <div id="mco">clique aqui</div>
+    <script>
+        var t1 =window.document.getElementsByTagName('p')[0]
+        window.document.write(t1.innerText)
+        var f = window.document.getElementById('mco')
+        var f = window.document.querySelector('div#mco')
+        f.style.color = 'white'
+        console.log(window.location.hash)
+        var teste = window.location.hash
+        var w = window.document.getElementById("ww")
+        var textToAdd = document.createTextNode(teste);
+        w.appendChild(textToAdd);
+    </script>
+</body>
+</html>
