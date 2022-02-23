@@ -49,6 +49,6 @@ function carregar() {
     if (hora == 21) {
         p1.innerHTML = `va i pra cadimia`
     } else {
-        p1.innerHTML = `va i estuda`
+        p1.innerHTML = `tadala`
     }
 }
