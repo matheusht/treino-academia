@@ -35,7 +35,6 @@ function carregar() {
         }
 
     var hora = data.getHours()
-    var hora = 15
     msg.innerHTML = `agora sao ${hora} hora`
     if (hora >= 0 && hora < 12) {
         img.src = '321.png'
